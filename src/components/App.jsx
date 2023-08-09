@@ -19,7 +19,7 @@ export function App() {
   const [filter, setFilter] = useState("");
 
   useEffect(() => {
-    localStorage.setItem("phoneBook", JSON.stringify(contacts));
+   localStorage.setItem("phoneBook", JSON.stringify(contacts));
   }, [contacts]);
 
   // add name in phonebook
